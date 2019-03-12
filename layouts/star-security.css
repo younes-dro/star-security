@@ -1,0 +1,211 @@
+/*
+Modal 
+*/
+.modal-header{
+    background-size: contain;
+    height: 50px;
+    /* height: 100px; */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-image: url(http://camera.stargps.ma/wp-content/uploads/2019/03/retina-star-security.png);
+    background-color:  #2b304b;
+    border-radius: 0px;
+}
+.modal-title span{
+    color: #fff;
+    border: 1px solid #fff;
+    display: inline-block;
+    padding: 0 20px
+}
+.modal-dialog{
+    margin: 0 auto;
+}
+.modal-content{
+    background-color: rgb(244, 245, 248);
+    /*border-radius: 0;*/
+    border: 0px;
+}
+.modal-content .main-content{
+    padding-left: 10px;
+    padding-right: 10px
+}
+.modal-content .main-content p,
+.modal-content .main-content ul li {
+    font-family: sans-serif;
+}
+.modal-content .main-content ul li i{
+    color: #4982d0;
+}
+.modal-content .main-content >h2{
+    text-align: center;
+} 
+.modal-footer{
+    background-color: #2b304b;
+}
+.modal-footer div.col-12  a.phone-in-popup{
+    color: #fff;
+    background-color: rgb(49, 91, 167);
+    margin: 0 auto 10px;
+
+}
+.modal-footer a.button{
+    display: block;
+    margin: 0 auto;
+    max-width: 180px;
+}
+.modal-footer button.phone-in-popup span.tele-text{
+    /*    padding: 10px;
+        display: block;
+        float: left;
+        font-family: 'Lato', sans-serif;
+        font-size: .9rem;*/
+}
+.modal-footer button.phone-in-popup span.tele-icon{
+    /*    color: rgba(0,0,0,.5);
+        background-color: rgba(0,0,0,.05);
+        float: right;
+        padding: 15px 13px;*/
+
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 700px;
+    }
+    .modal-content .main-content h3{
+
+    }
+}
+
+/*
+Section Devis
+*/
+#devis .presentation-devis{
+    padding: 20px 40px 0px;
+}
+
+@media only screen and (min-width: 768px){
+    #devis .presentation-devis{
+        padding: 80px 40px 25px;
+        /*border: 1px solid #f00;*/
+    } 
+}
+
+/*
+Section starGPS (about-us)
+*/
+#abour-us .bg-contain {
+    border: 1px solid #f00;
+}
+#about-us .logo-column div.column_attr{
+    background-image: url(../images/logo-stargps-small.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 250px 15% 70px;
+    background-size: auto;
+
+}
+@media only screen and (min-width: 768px){
+    #about-us .logo-column div.column_attr{
+        background-image: url(../images/logo-stargps-medium.png);
+        background-size: contain;
+        /*border: 1px solid;*/
+        /*padding: 0 15% 70px;*/
+        background-position: center center;
+        /*padding:340px 15% 70px;*/
+    } 
+}
+
+
+#Header_wrapper{
+    background-attachment: fixed;
+    /*height: 100vh;*/
+}
+#devis, 
+#services, 
+#about-us ,
+#produits,
+#contact-us{
+    min-height: 100vh;
+}
+#devis,#about-us{
+    background-attachment: fixed;
+}
+
+.bg-contact-devis{
+    /*border: 1px solid #fff;*/
+    background-color: hsla(0, 0%, 20%, 0.55);
+
+}
+h2.title-formulaire{
+    color: #fff;
+}
+#devis .image_wrapper,
+#contact-us .image_wrapper{
+    float: left;
+    margin-right: 10px;
+}
+#devis .google_font{
+    font-size: 20px;
+}
+#devis .google_font a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+h2.title-formulaire{
+    font-size: 20px;
+}
+@media only screen and (max-width: 959px) and (min-width: 768px){
+    #devis .google_font a{
+        font-size: 30px;
+    }  
+    #contact-us .google_font{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width:959px){
+    #devis .google_font a {
+        font-size:40px;
+    }
+    h2.title-formulaire{
+        font-size: 40px;
+    }    
+}
+@media screen and (max-width:767px){
+
+    #about-us div.section_wrapper{
+        padding: 0px!important;
+    }
+    #devis .image_wrapper{
+        width: 20px
+    }   
+    /*    #devis .section_wrapper .mcb-wrap{
+            padding-top: 20px;
+        }*/
+}
+
+
+#Subheader .title{
+    border: 4px solid #fff;
+    background-color: rgba(21, 25, 46, 0.75);
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+span.info-multi-selection{
+    display: block;
+    text-align: left;
+}
+@media screen and (max-width:767px){
+    span.info-multi-selection{
+        display: none;
+    }  
+}
+
+.gallery .image_frame{
+    /*background-color: #315ba7;*/
+    border: none;
+
+}
