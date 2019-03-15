@@ -7,7 +7,7 @@ Modal
     /* height: 100px; */
     background-position: top center;
     background-repeat: no-repeat;
-    background-image: url(http://camera.stargps.ma/wp-content/uploads/2019/03/retina-star-security.png);
+    background-image: url(../images/retina-star-security.png);
     background-color:  #2b304b;
     border-radius: 0px;
 }
@@ -106,7 +106,7 @@ Section starGPS (about-us)
 }
 @media only screen and (min-width: 768px){
     #about-us .logo-column div.column_attr{
-        background-image: url(../images/logo-stargps-medium.png);
+        background-image: url(../images/logo-stargps-medium-hd.png);
         background-size: contain;
         /*border: 1px solid;*/
         /*padding: 0 15% 70px;*/
@@ -115,6 +115,36 @@ Section starGPS (about-us)
     } 
 }
 
+/*
+Section Produits
+*/
+#produits ul.content_slider_ul{
+    border: none;
+}
+div.produits-texte p{
+    text-align: justify;
+}
+#produits .content_slider.center .content_slider_ul li:after{
+        background-color: rgba(0, 0, 0, 0.8)!important;
+}
+@media only screen and (min-width:768px) and (max-width:900px){
+    #produits div.produits-texte,
+    #produits div.produits-slider{
+        /*border:1px solid #f00;*/
+        width: 100%!important;
+    }
+    #produits div.produits-texte{
+        margin-bottom: 0px;
+    }
+    #produits div.slick-list{
+        /*max-height: 306px!important;*/
+    }
+}
+@media only screen and (max-width: 767px){
+    .produits-slider .content_slider.center a.button{
+        display: block!important;
+    }
+}
 
 #Header_wrapper{
     background-attachment: fixed;
@@ -208,4 +238,39 @@ span.info-multi-selection{
     /*background-color: #315ba7;*/
     border: none;
 
+}
+
+
+/*
+Section Contact
+*/
+#contact-us a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#contact-us .partenaires .column{
+    margin: 0 auto;
+}
+#contact-us .partenaires .column .bg-contain{
+    /*    height: 100px;
+        max-height: 100px;*/
+}
+#contact-us div.wrap{
+        
+    } 
+@media only screen and (max-width:767px){
+    #contact-us div.wrap{
+        /*border: 1px solid #f00;*/
+        padding: 20px 40px 0px!important;        
+    }    
+    #contact-us .section_wrapper .column {
+        margin: 0px!important;
+    }
+    #contact-us .devis-contact-section .no_line{
+        display: none;
+    }
+    #contact-us a.button_dark{
+        background-color: hsl(0, 3%, 21%);
+    }
 }
